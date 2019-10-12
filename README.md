@@ -5,8 +5,8 @@ Yongjun Lee, Hyun Kwon, Sang-Hoon Choi, Seung-Ho Lim, Sung Hoon Baek, Ki-Woong P
 # What?
 Instruction2vec is a preprocessor that vectorizes the instructions of the assembly code. The output of Instruction2vec is a vector value that can be trained on various models. Instruction2vec has the following characteristics:
 * Gives a vector value of fixed length.
-* Consider the syntax of the assembly code.
-* works based on Word2vec.
+* Considers the syntax of the assembly code.
+* Works based on Word2vec.
 
 # Example
 ```python
