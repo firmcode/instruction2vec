@@ -21,6 +21,6 @@ vectorsize = 5
 model = gen.gen_instruction2vec_model(asmcode_corpus,vectorsize,"test_model")
 
 for one_instruction in test_asmcode.split('\n'):
-	print one_instruction
+	print(one_instruction)
 	vector_of_intruction = inst2vec.instruction2vec(one_instruction,model,vectorsize)
-	print vector_of_intruction
+	print (vector_of_intruction)
